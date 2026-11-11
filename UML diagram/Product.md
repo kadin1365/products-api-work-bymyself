@@ -11,3 +11,4 @@ classDiagram
         +getPrice() double
     }
 ```
+
