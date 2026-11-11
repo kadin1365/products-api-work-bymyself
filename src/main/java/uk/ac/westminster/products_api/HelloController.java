@@ -30,4 +30,9 @@ public class HelloController {
 
     // TODO (Activity 3): add your /goodbye endpoint here.
 
+    @GetMapping("/goodbye")
+    public String goodbye(){
+        return "goodbye from Spring Boots!";
+    }
+
 }
