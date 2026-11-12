@@ -23,4 +23,4 @@ classDiagram
         +getPostcode() String
     }
     Customer --> Address
-```cla
+```
