@@ -51,6 +51,14 @@ public class ProductService {
                 5.4, "61cm x 41cm x 18cm"));
     }
 
+    public List<String> getAllSummaries() {
+        List<String> summaries = new ArrayList<>();
+        for (Product p : products) {
+            summaries.add(p.getSummary());
+        }
+        return summaries;
+    }
+
 
 
 }
